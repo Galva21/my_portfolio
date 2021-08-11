@@ -12,12 +12,15 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Center(
-        child: Container(
-          child: Text(
-            'My Portfolio - Galva',
-            style: TextStyle(
-              color: Colors.blue
+      home: Scaffold(
+        backgroundColor: Colors.grey[850],
+        body: Center(
+          child: Container(
+            child: Text(
+              'My Portfolio - Galva',
+              style: TextStyle(
+                color: Colors.blue
+              ),
             ),
           ),
         ),
